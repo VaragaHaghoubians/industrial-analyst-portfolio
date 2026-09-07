@@ -1,4 +1,4 @@
-# Week 1, SQL business questions
+# Project 1, SQL business questions
 
 This is my first project. I wanted to practice the SQL that shows up in every data analyst job posting, so I built a tiny factory database with 4 machines and 30 days of production, and then answered 5 questions a plant manager would actually ask.
 
