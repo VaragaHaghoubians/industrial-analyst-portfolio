@@ -2,3 +2,4 @@ __pycache__/
 *.db
 .ipynb_checkpoints/
 push_week.ps1
+weekly_linkedin_posts.md

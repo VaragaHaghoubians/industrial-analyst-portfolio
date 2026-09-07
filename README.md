@@ -1,14 +1,16 @@
 # Industrial / Operations Data Analyst, my portfolio
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+
 Hi, I'm Varaga. I have a BSc in Industrial Engineering and I am finishing an MSc in Data Science in Turin. This repo is my collection of small, beginner friendly projects that show the skills an Industrial / Operations Data Analyst uses every day, SQL, Python with pandas, Power BI, statistics, forecasting, optimization, inventory and predictive maintenance.
 
-I add one project per week. Each one has its own README with what it does, how to run it, what I learned, and how I would explain it in an interview.
+I'm doing these projects and pushing them here as I finish them. Each one has its own README with what it does, how to run it, what I learned, and how I would explain it in an interview.
 
 Every project makes its own sample data, so you can run it right away, no downloads needed.
 
-## The 10 week plan
+## The 10 projects
 
-| Week | Project | Tier | What it shows | Main tools |
+| # | Project | Tier | What it shows | Main tools |
 |---|---|---|---|---|
 | 1 | [SQL business questions](01_sql_business_questions/) | Master | JOIN, GROUP BY, window functions, CTE | sqlite3 |
 | 2 | Clean messy data | Master | missing values, duplicates, wrong types, sensor errors | pandas |
