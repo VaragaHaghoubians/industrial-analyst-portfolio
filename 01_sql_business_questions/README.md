@@ -34,6 +34,3 @@ A CTE, the WITH ranked AS part, turns a two step question into something I can a
 
 I drop and recreate the tables at the start, because otherwise the data doubles every time I run the script.
 
-## How I would explain it in an interview
-
-I answered five business questions about factory output and defects in SQL, with joins, group by, a running total using a window function, and a CTE to find each machine's worst day.
