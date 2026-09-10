@@ -4,7 +4,7 @@
 
 Hi, I'm Varaga. I have a BSc in Industrial Engineering and I am finishing an MSc in Data Science in Turin. This repo is my collection of small, beginner friendly projects that show the skills an Industrial / Operations Data Analyst uses every day, SQL, Python with pandas, Power BI, statistics, forecasting, optimization, inventory and predictive maintenance.
 
-I'm doing these projects and pushing them here as I finish them. Each one has its own README with what it does, how to run it, what I learned, and how I would explain it in an interview.
+I'm doing these projects and pushing them here as I finish them. Each one has its own README with what it does, how to run it, and what I learned.
 
 Every project makes its own sample data, so you can run it right away, no downloads needed.
 
