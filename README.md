@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-Hi, I'm Varaga. I have a BSc in Industrial Engineering and I am finishing an MSc in Data Science in Turin. This repo is my collection of small, beginner friendly projects that show the skills an Industrial / Operations Data Analyst uses every day, SQL, Python with pandas, Power BI, statistics, forecasting, optimization, inventory and predictive maintenance.
+Hi, I'm Varaga. I have a BSc in Industrial Engineering, and I am finishing an MSc in Data Science in Turin. This repo is a collection of small, beginner-friendly projects that show the skills an Industrial/Operations Data Analyst uses every day: SQL, Python with pandas, Power BI, statistics, forecasting, optimization, inventory, and predictive maintenance.
 
 I'm doing these projects and pushing them here as I finish them. Each one has its own README with what it does, how to run it, and what I learned.
 
@@ -44,8 +44,8 @@ Each script prints its results and saves any charts or csv files in its own fold
 
 ## A bit about me
 
-BSc Industrial Engineering, and an MSc in Stochastics and Data Science at the University of Turin.
+BSc in Industrial Engineering and an MSc in Stochastics and Data Science at the University of Turin.
 
-Internship doing anomaly detection on real industrial HVAC and IoT sensor data, which is predictive maintenance.
+Internship doing anomaly detection on real industrial HVAC and IoT sensor data for predictive maintenance.
 
-Before that, industrial data monitoring and KPI dashboards for production managers.
+Before that, I worked on industrial data monitoring and KPI dashboards for production managers.
