@@ -1,0 +1,204 @@
+machine,shift,units_made,defects,temperature
+Welder C,Night,468,29,65.5
+ Welder C ,Morning,318,18,71.7
+Press A,Morning,525,20,61.3
+press a,Morning,619,26,64.4
+Welder C,,346,17,70.4
+Press A,,  520 ,2,69.7
+Press A,Morning,517,19,68.9
+press a,,412,25,63.9
+ Welder C ,Evening,657,29,57.7
+ Welder C ,Night,unknown,13,67.4
+press a,Night,398,11,71.8
+Press B,,584,19,67.6
+ Welder C ,,506,,71.6
+Press B,Evening,503,15,63.8
+ Welder C ,,470,7,64.0
+Welder C,,582,16,69.2
+ Welder C ,Evening,532,28,75.2
+Press B,,358,19,66.1
+ Welder C ,Morning,683,27,77.2
+Press B,Night,337,29,74.3
+ Welder C ,Night,537,11,999.0
+press a,Night,534,19,73.8
+press a,Morning,567,15,72.5
+Press A,Night,306,6,70.6
+press a,Night,396,24,63.5
+press a,Evening,442,26,68.2
+press a,Morning,400,22,72.0
+press a,Morning,643,11,64.6
+Press A,Morning,503,5,69.2
+ Welder C ,Morning,491,1,67.9
+press a,Night,679,29,72.0
+Press A,Evening,332,15,63.2
+Press A,,410,19,80.3
+Welder C,,647,2,
+Press B,Evening,477,22,66.4
+press a,Morning,678,13,68.3
+Press A,Night,428,19,69.3
+Welder C,Night,450,10,63.7
+press a,Evening,397,22,68.2
+press a,Night,464,13,70.5
+Welder C,Evening,583,7,72.8
+ Welder C ,Night,456,18,68.1
+Press A,Evening,352,8,73.8
+press a,Night,402,12,71.9
+Welder C,Morning,522,16,64.1
+ Welder C ,Morning,677,17,61.7
+Press B,Night,606,11,72.1
+ Welder C ,Night,602,24,69.8
+Press A,Morning,307,6,75.2
+Welder C,Evening,572,0,74.1
+press a,Night,531,16,64.7
+Press B,Morning,457,1,71.1
+Press A,Night,695,18,73.7
+ Welder C ,,570,23,60.5
+press a,Morning,660,7,66.2
+Press B,,330,20,81.0
+Press B,Evening,436,14,67.1
+press a,Morning,468,4,73.6
+Press A,Morning,458,26,76.6
+press a,,520,0,68.3
+Welder C,,492,1,62.0
+ Welder C ,Night,531,16,71.5
+Welder C,,440,24,73.2
+press a,Morning,445,21,63.0
+Welder C,,550,22,70.9
+Press A,Night,310,2,61.5
+Press A,,328,21,68.0
+Press B,Evening,689,4,69.5
+Press B,Night,637,3,69.1
+press a,Morning,433,16,76.0
+Welder C,,677,22,68.1
+ Welder C ,Morning,342,18,68.0
+Press B,Morning,386,1,61.4
+Press A,Morning,613,11,71.6
+Press A,Night,612,11,78.7
+press a,Night,378,25,69.7
+press a,,643,20,76.4
+Welder C,,673,12,75.4
+Press A,Morning,509,4,72.6
+Press A,Night,694,13,65.4
+ Welder C ,Evening,500,0,78.3
+Press B,,604,25,75.5
+ Welder C ,Evening,575,8,66.1
+Welder C,Evening,696,7,70.2
+Welder C,Morning,453,7,61.6
+Press A,Evening,633,22,55.5
+Welder C,Night,572,1,65.9
+ Welder C ,Evening,560,26,71.2
+Welder C,Night,674,7,76.5
+ Welder C ,Night,455,2,67.0
+ Welder C ,Evening,624,4,73.3
+ Welder C ,Morning,431,5,69.3
+press a,Evening,486,29,57.7
+Press A,Night,312,22,77.5
+ Welder C ,,430,7,64.1
+Press B,Night,632,18,63.5
+Press A,Morning,652,12,69.7
+Press B,Morning,652,13,67.0
+ Welder C ,Morning,617,0,72.3
+press a,,699,21,69.0
+press a,Night,656,18,69.3
+Press A,Morning,630,29,67.9
+Press B,,696,28,75.6
+ Welder C ,,458,7,66.9
+ Welder C ,,433,28,68.9
+Press A,Evening,444,15,78.2
+ Welder C ,,651,25,68.0
+press a,Morning,396,9,78.6
+ Welder C ,Night,536,23,63.3
+press a,Night,587,1,71.7
+Press A,,535,1,73.7
+Press B,Morning,399,13,72.4
+Welder C,Evening,600,20,79.9
+press a,Evening,580,6,76.3
+Press B,Night,635,21,76.7
+ Welder C ,Evening,321,27,72.4
+ Welder C ,,633,6,72.7
+Press B,Night,333,20,71.2
+Press B,Morning,304,1,70.3
+Press A,Evening,339,1,66.2
+press a,Evening,424,21,61.0
+Press B,Morning,367,17,76.7
+Press B,Evening,462,18,68.2
+Press A,,462,6,61.7
+press a,,342,28,75.9
+Press B,Evening,634,11,70.8
+ Welder C ,Night,510,18,67.1
+Press A,,658,3,73.9
+press a,Night,338,19,76.3
+Press B,Morning,678,2,65.0
+press a,Night,476,3,64.2
+ Welder C ,Morning,422,0,73.0
+Press B,Night,509,10,65.8
+Press A,,561,0,69.1
+Press A,Morning,530,1,65.7
+press a,Night,519,5,66.2
+Press A,Night,692,0,70.5
+press a,Morning,596,5,76.4
+Welder C,,497,14,63.8
+press a,Night,305,8,68.5
+press a,Morning,307,11,73.9
+ Welder C ,,593,12,78.1
+ Welder C ,Night,661,24,68.9
+Welder C,,634,16,69.4
+Press A,,333,29,65.3
+Welder C,Morning,327,0,76.9
+Press A,Evening,479,0,71.1
+Welder C,Night,377,9,78.9
+press a,Evening,330,24,68.7
+Press B,Morning,474,21,66.3
+ Welder C ,,309,25,67.3
+Press A,Night,623,27,67.2
+Press A,Night,559,14,71.5
+Welder C,Night,610,3,65.5
+press a,Morning,653,4,66.2
+press a,Evening,527,29,69.7
+Press A,Night,380,0,78.3
+Press A,,584,25,77.9
+ Welder C ,Evening,465,13,63.6
+Press B,Evening,634,24,66.0
+Welder C,Evening,659,6,73.1
+ Welder C ,Evening,352,19,68.6
+Press B,Morning,694,10,78.1
+Press A,Evening,602,25,66.3
+Welder C,Night,363,25,60.2
+Welder C,Evening,423,0,79.9
+press a,Morning,521,8,65.3
+Press B,Morning,446,1,69.6
+ Welder C ,Night,457,22,69.2
+Welder C,Night,339,6,73.0
+Press A,,584,1,80.3
+Press A,Evening,354,19,68.9
+ Welder C ,Morning,329,7,73.1
+Press B,Morning,483,27,70.5
+ Welder C ,Morning,659,13,72.2
+Press B,Night,646,3,73.8
+Press A,,662,28,72.2
+Welder C,Night,696,15,64.2
+Press A,Morning,445,29,66.5
+Press A,Evening,371,2,70.5
+ Welder C ,,391,15,75.5
+Press B,Evening,691,29,69.1
+press a,Evening,680,19,79.5
+Press A,Night,484,0,62.3
+ Welder C ,Evening,351,26,71.6
+Welder C,Evening,504,18,75.1
+Press A,Morning,362,8,76.2
+press a,Evening,402,26,70.6
+Press B,Night,479,2,65.9
+ Welder C ,Morning,396,25,75.9
+ Welder C ,,330,0,73.7
+Welder C,Morning,450,17,63.9
+Welder C,Morning,561,28,66.7
+Welder C,Night,395,14,70.8
+Welder C,,661,19,73.7
+Press B,Evening,504,9,58.6
+Welder C,Evening,416,20,71.6
+Welder C,Evening,665,24,62.8
+ Welder C ,Morning,322,8,72.1
+Welder C,Morning,521,24,66.4
+press a,Morning,619,26,64.4
+press a,,412,25,63.9
+Press B,,584,19,67.6
