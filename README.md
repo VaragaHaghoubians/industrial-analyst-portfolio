@@ -16,7 +16,7 @@ Every project makes its own sample data, so you can run it right away, no downlo
 | 2 | [Clean messy data](02_clean_messy_data/) | Master | missing values, duplicates, wrong types, sensor errors | pandas |
 | 3 | [EDA on operations data](03_eda_operations/) | Master | groupby, pivot tables, charts, 3 findings | pandas, matplotlib |
 | 4 | KPI dashboard in Power BI | Master | KPI dataset plus a Power BI dashboard with DAX measures | pandas, Power BI |
-| 5 | Statistics report | Master | descriptive stats, t-test, confidence interval, correlation | scipy, pandas |
+| 5 | [Statistics report](05_statistics_report/) | Master | descriptive stats, t-test, confidence interval, correlation | scipy, pandas |
 | 6 | Demand forecasting | Edge | naive baselines against Holt-Winters, MAPE | statsmodels |
 | 7 | Production mix optimizer | Edge | linear programming, finding the bottleneck | PuLP |
 | 8 | Inventory, EOQ and safety stock | Edge | EOQ, reorder point, safety stock, service level | math, scipy |
