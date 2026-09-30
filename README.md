@@ -18,7 +18,7 @@ Every project makes its own sample data, so you can run it right away, no downlo
 | 4 | [KPI dashboard in Power BI](04_kpi_dashboard_powerbi/) | Master | KPI dataset plus a Power BI dashboard with DAX measures | pandas, Power BI |
 | 5 | [Statistics report](05_statistics_report/) | Master | descriptive stats, t-test, confidence interval, correlation | scipy, pandas |
 | 6 | [Demand forecasting](06_demand_forecasting/) | Edge | naive baselines against Holt-Winters, MAPE | statsmodels |
-| 7 | Production mix optimizer | Edge | linear programming, finding the bottleneck | PuLP |
+| 7 | [Production mix optimizer](07_production_mix_optimizer/) | Edge | linear programming, finding the bottleneck | PuLP |
 | 8 | Inventory, EOQ and safety stock | Edge | EOQ, reorder point, safety stock, service level | math, scipy |
 | 9 | Predictive maintenance | Edge | classifying machine failure, handling a rare class | scikit-learn |
 | 10 | Capstone, one operations story | Both | SQL, then pandas, then statistics, then Power BI, all together | everything above |
