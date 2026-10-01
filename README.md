@@ -2,11 +2,9 @@
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
-Hi, I'm Varaga. I have a BSc in Industrial Engineering, and I am finishing an MSc in Data Science in Turin. This repo is a collection of small, beginner-friendly projects that show the skills an Industrial/Operations Data Analyst uses every day: SQL, Python with pandas, Power BI, statistics, forecasting, optimization, inventory, and predictive maintenance.
+Sample-data exercises for an industrial / operations analyst application: SQL, pandas cleaning, EDA, a small statistics report, forecasting, a production-mix linear program, inventory, and a failure classifier.
 
-I'm doing these projects and pushing them here as I finish them. Each one has its own README with what it does, how to run it, and what I learned.
-
-Every project makes its own sample data, so you can run it right away, no downloads needed.
+Project 4 prepares a KPI extract and lists Power BI steps. It does not include a `.pbix` or a dashboard screenshot. Project 10 is an unfilled template. Each exercise generates its own sample data.
 
 ## The 10 projects
 
@@ -15,13 +13,13 @@ Every project makes its own sample data, so you can run it right away, no downlo
 | 1 | [SQL business questions](01_sql_business_questions/) | Master | JOIN, GROUP BY, window functions, CTE | sqlite3 |
 | 2 | [Clean messy data](02_clean_messy_data/) | Master | missing values, duplicates, wrong types, sensor errors | pandas |
 | 3 | [EDA on operations data](03_eda_operations/) | Master | groupby, pivot tables, charts, 3 findings | pandas, matplotlib |
-| 4 | [KPI dashboard in Power BI](04_kpi_dashboard_powerbi/) | Master | KPI dataset plus a Power BI dashboard with DAX measures | pandas, Power BI |
+| 4 | [KPI dashboard in Power BI](04_kpi_dashboard_powerbi/) | Master | KPI csv and Power BI steps, no dashboard file | pandas, Power BI |
 | 5 | [Statistics report](05_statistics_report/) | Master | descriptive stats, t-test, confidence interval, correlation | scipy, pandas |
 | 6 | [Demand forecasting](06_demand_forecasting/) | Edge | naive baselines against Holt-Winters, MAPE | statsmodels |
 | 7 | [Production mix optimizer](07_production_mix_optimizer/) | Edge | linear programming, finding the bottleneck | PuLP |
 | 8 | [Inventory, EOQ and safety stock](08_inventory_eoq_safety_stock/) | Edge | EOQ, reorder point, safety stock, service level | math, scipy |
 | 9 | [Predictive maintenance](09_predictive_maintenance/) | Edge | classifying machine failure, handling a rare class | scikit-learn |
-| 10 | [Capstone, one operations story](10_capstone_operations_story/) | Both | SQL, then pandas, then statistics, then Power BI, all together | everything above |
+| 10 | [Capstone, one operations story](10_capstone_operations_story/) | Both | template, numbers not filled | everything above |
 
 Master means the core analyst skills. Edge means my industrial engineering side.
 
@@ -46,6 +44,6 @@ Each script prints its results and saves any charts or csv files in its own fold
 
 BSc in Industrial Engineering and an MSc in Stochastics and Data Science at the University of Turin.
 
-Internship doing anomaly detection on real industrial HVAC and IoT sensor data for predictive maintenance.
+Eurix curricular internship on HVAC/AHU time series. The public repo ships a synthetic generator because the BMS extract is confidential.
 
 Before that, industrial data monitoring and KPI dashboards for production managers.

@@ -1,5 +1,7 @@
 # Project 10, the capstone, one operations story
 
+Not finished. The percentages below are blanks. Do not treat this as a completed project.
+
 This project has no new code. It puts projects 1 to 5 together into one story a plant manager could follow, which is how a real analyst delivers work.
 
 ## The story in one sentence

@@ -1,5 +1,7 @@
 # Project 4, a production KPI dashboard in Python and Power BI
 
+This folder is the data prep only. There is no Power BI file in the repo.
+
 Power BI is click and drag, so the code part of this project is preparing a clean KPI dataset in Python. Then I build the dashboard on top of it with DAX measures and slicers.
 
 ## How to run it
