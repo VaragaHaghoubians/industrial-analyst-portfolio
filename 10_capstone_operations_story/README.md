@@ -1,41 +1,46 @@
-# Project 10, the capstone, one operations story
+# Operations Analytics Capstone — In Progress
 
-Not finished. The percentages below are blanks. Do not treat this as a completed project.
+This page is not a finished project. There is no new code here, and there is no Power BI file. The numbers below are the printed output of projects 1, 3, and 5. Each of those scripts builds its own sample. They are not one plant extract, so the percentages must not be read as a single study.
 
-This project has no new code. It puts projects 1 to 5 together into one story a plant manager could follow, which is how a real analyst delivers work.
+## Question
 
-## The story in one sentence
+Which machine should maintenance look at first, and is the gap large enough to act on?
 
-Welder D has the highest defect rate, it is worst on the night shift, the difference is statistically real and not noise, and here is the dashboard to keep track of it.
+## What is done
 
-## The steps
+Project 1, SQL, 30 days, 4 machines, 120 production rows (`random.seed(1)`):
 
-First, SQL from project 1, pull the total units and defects per machine and find the worst one.
+| Machine | Units | Defects | Defect rate |
+|---|---:|---:|---:|
+| Welder D | 14,790 | 781 | 5.28% |
+| Press B | 15,605 | 275 | 1.76% |
+| Welder C | 15,590 | 271 | 1.74% |
+| Press A | 15,040 | 238 | 1.58% |
 
-Second, pandas from projects 2 and 3, clean the export, group by machine and shift, and make the charts.
+Welder D is the only machine above the factory average defect rate. Its worst day in that sample is 2026-01-01, with 40 defects.
 
-Third, statistics from project 5, a t-test to prove the worst machine really is different.
+Project 3, EDA, 90 days, 4 machines, 3 shifts, 360 rows (`np.random.seed(2)`):
 
-Fourth, Power BI from project 4, put the KPIs on a dashboard with slicers.
+- Welder D average defect rate: **5.43%**. Press A is 1.96%, Press B 1.90%, Welder C 1.88%.
+- Night shift defect rate: **3.62%**, against **2.34%** on the other shifts.
+- Welder D by shift: Evening 5.00%, Morning 4.92%, Night 6.23%.
+- Correlation of downtime and defect rate: **0.07**. Downtime does not explain the defects in this sample.
 
-Fifth, write the one page summary below with a recommendation.
+The three charts from that run are in `03_eda_operations/`.
 
-## The one page summary I fill in
+Project 5, a separate 60-day sample for Welder C and Welder D only (`np.random.seed(4)`). These are daily defect counts, not the rates above.
 
-Question, which machine should maintenance look at first?
+- Welder C mean: **10.07** defects per day (95% CI 9.31 to 10.83).
+- Welder D mean: **14.33** defects per day (95% CI 13.59 to 15.08). The intervals do not overlap.
+- Two-sample t-test: **t = -8.015**, and the script prints **p-value = 0.0000**. The value is about 8.85e-13, so it is below 0.05. On this sample, the two machines do not have the same mean.
+- Speed against defects: Pearson **r = 0.61**. That is association, not a cause.
 
-Data, 90 days, 4 machines, 3 shifts.
+## What is not done
 
-Finding 1, Welder D defect rate is ___ percent against a factory average of ___ percent.
+Project 4 prepares `kpi_data.csv` and lists Power BI steps. There is no `.pbix` and no dashboard screenshot, so this capstone does not cite a dashboard.
 
-Finding 2, the night shift defect rate is ___ percent against ___ percent on the other shifts.
+The night-shift gap is from project 3. The t-test is from project 5. Project 5 does not test shifts, and it does not use the project 3 rows. A finished version has to run one shared sample through SQL, the cleaning step, the EDA, and the t-test, then paste those prints here.
 
-Statistical check, a two sample t-test with p equal to ___, below 0.05 means the difference is real.
+## Recommendation, limited to these samples
 
-Recommendation, inspect Welder D first and review the night shift procedure.
-
-Dashboard, the screenshot from project 4.
-
-## Why this project matters
-
-Recruiters do not want ten separate scripts. They want to see that I can go from a business question, to the data, to a clear recommendation. That is what this project shows.
+On the SQL sample and the EDA sample, look at Welder D first. On the EDA sample, the night shift is higher on every machine, and it is highest on Welder D. On the statistics sample, Welder D's daily defect count is higher than Welder C's, and the difference is not noise in that draw. Do not treat the 5.28%, the 5.43%, and the 14.33 defects per day as three measurements of one week.

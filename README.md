@@ -4,7 +4,7 @@
 
 Sample-data exercises for an industrial / operations analyst application: SQL, pandas cleaning, EDA, a small statistics report, forecasting, a production-mix linear program, inventory, and a failure classifier.
 
-Project 4 prepares a KPI extract and lists Power BI steps. It does not include a `.pbix` or a dashboard screenshot. Project 10 is an unfilled template. Each exercise generates its own sample data.
+Project 4 prepares a KPI extract and lists Power BI steps. It does not include a `.pbix` or a dashboard screenshot. Project 10 is in progress: it records the printed sample results from projects 1, 3, and 5. Those scripts do not share one dataset, and there is no dashboard. Each exercise generates its own sample data.
 
 ## The 10 projects
 
@@ -19,7 +19,7 @@ Project 4 prepares a KPI extract and lists Power BI steps. It does not include a
 | 7 | [Production mix optimizer](07_production_mix_optimizer/) | Edge | linear programming, finding the bottleneck | PuLP |
 | 8 | [Inventory, EOQ and safety stock](08_inventory_eoq_safety_stock/) | Edge | EOQ, reorder point, safety stock, service level | math, scipy |
 | 9 | [Predictive maintenance](09_predictive_maintenance/) | Edge | classifying machine failure, handling a rare class | scikit-learn |
-| 10 | [Capstone, one operations story](10_capstone_operations_story/) | Both | template, numbers not filled | everything above |
+| 10 | [Capstone, one operations story](10_capstone_operations_story/) | Both | in progress; separate samples; no dashboard | everything above |
 
 Master means the core analyst skills. Edge means my industrial engineering side.
 
