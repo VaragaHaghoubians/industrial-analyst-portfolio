@@ -1,0 +1,16 @@
+{
+  "sku_count": 8,
+  "reorder_now": [
+    "BEARING",
+    "SEAL-KIT",
+    "HYDRAULIC-HOSE"
+  ],
+  "high_stock": [
+    "SUPPORT"
+  ],
+  "highest_safety_stock_sku": "BRACKET",
+  "highest_safety_stock_units": 49.4,
+  "highest_relevant_cost_sku": "HOUSING",
+  "highest_relevant_cost_euro": 1748.69,
+  "total_relevant_cost_euro": 6795.77
+}
