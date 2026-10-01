@@ -1,9 +1,0 @@
-sku,category,unit_cost,order_cost,holding_rate,lead_time_weeks,service_level,on_hand
-BRACKET,finished good,8.0,75.0,0.22,2,0.95,450
-HOUSING,finished good,22.0,90.0,0.22,3,0.95,280
-SUPPORT,finished good,15.0,80.0,0.22,2,0.95,520
-BEARING,spare part,45.0,60.0,0.25,4,0.98,10
-FILTER,spare part,18.0,40.0,0.25,2,0.95,50
-SEAL-KIT,spare part,30.0,50.0,0.25,3,0.97,6
-WELD-TIP,spare part,6.0,35.0,0.2,1,0.95,80
-HYDRAULIC-HOSE,spare part,120.0,110.0,0.18,6,0.99,3

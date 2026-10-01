@@ -1,51 +1,36 @@
-# Project 8, inventory, EOQ and safety stock
+# Project 8, inventory, EOQ, safety stock and reorder point
 
-A beginner operations project for one year of synthetic spare-part and finished-good demand. Python calculates the economic order quantity, safety stock and reorder point, then flags what to buy and what is sitting too high.
-
-The folder layout matches the steel manufacturing project: data, notebooks, `src`, reports, docs, a short dashboard note and tests. The data is synthetic. It is not a real purchasing decision.
-
-## Result on the sample data
-
-Reorder now: BEARING, SEAL-KIT and HYDRAULIC-HOSE.
-
-SUPPORT is above the reorder point plus one order quantity, so the stock should be reviewed before buying more.
-
-BRACKET has the highest safety stock, 49 units, because its weekly demand moves around. HYDRAULIC-HOSE has the higher service level, 99%, but a small safety stock in units because demand is small. Service level and units are not the same thing.
-
-Order quantity for BRACKET is 850 units. Total relevant order-and-hold cost across the eight SKUs is about 6,796 euro per year. That cost leaves out the purchase price of the parts.
-
-The calculated table is in [reports/inventory_summary.md](reports/inventory_summary.md).
+Three classic inventory numbers for one part, plus what happens when you ask for a higher service level.
 
 ## How to run it
 
-```powershell
-py -3 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe .\src\main.py
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+python inventory.py
 ```
 
-Open [START_HERE.md](START_HERE.md) before the notebooks. The portfolio MIT license in the repository root covers this folder.
+## The three formulas and what they mean
 
-## What I learned
+EOQ is the square root of 2 times D times S over H. It is how much to order each time so that ordering cost plus holding cost is lowest.
 
-EOQ is the quantity where the yearly ordering cost and the yearly cycle-stock holding cost meet.
+Safety stock is z times the daily standard deviation times the square root of the lead time. It is the buffer for random demand spikes during the lead time.
 
-Safety stock is `z × weekly standard deviation × square root of lead time`. A longer lead time needs more buffer, and the growth is the square root, not a straight line.
+Reorder point is daily demand times lead time, plus safety stock. When stock hits this number, I place a new order.
 
-The reorder point is expected demand during the lead time plus safety stock. On-hand stock at or below that point is the buy signal in this project.
+## Result for the sample part
 
-## Repository structure
+Order 693 units each time, that is about 17 orders a year.
 
-```text
-08_inventory_eoq_safety_stock/
-├── README.md, START_HERE.md, requirements.txt
-├── data/raw/                 # SKU master and 52 weeks of demand
-├── data/processed/           # policy table and service-level curve
-├── notebooks/                # four short walkthroughs
-├── src/                      # generate, check, calculate, chart, report
-├── reports/                  # charts, summary, metrics.json
-├── docs/                     # formulas, examples, interview questions
-├── dashboard/README.md       # optional Excel view
-└── tests/                    # formula checks
-```
+Keep 35 units of safety stock for a 95 percent service level.
+
+Reorder when stock falls to 371 units.
+
+Going from a 90 percent to a 99 percent service level takes the safety stock from 27 up to 49 units. That is the trade off a manager has to decide, fewer stock outs cost more inventory.
+
+## Things I learned doing this
+
+EOQ balances two costs that pull in opposite directions. Order often and the ordering cost is high, order big and the holding cost is high.
+
+The z value comes from the normal distribution, 95 percent is about 1.65 and 99 percent is about 2.33.
+
+Safety stock grows with the square root of the lead time, so a longer lead time hurts more than it looks.
+

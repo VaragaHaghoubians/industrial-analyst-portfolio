@@ -1,41 +1,34 @@
-# Project 9, predictive maintenance
+# Project 9, predictive maintenance, will this machine fail?
 
-Four machines, 180 synthetic days, and a failure on about 7.8% of those days. The point of the project is the rare class. A model that always says "no failure" is 92.1% accurate on the test days and still catches none of the failures.
+Here I predict machine failure from sensor readings, temperature, speed, torque and tool wear. Failures are rare, so this project is really about why accuracy is misleading and why recall is what matters for maintenance.
 
-A logistic regression with balanced class weights catches 64.7% of the test failures. Its precision is 25.6%, so most alarms are false. That tradeoff is the result, not a tuning accident. The numbers are in [reports/maintenance_summary.md](reports/maintenance_summary.md).
-
-The folder layout matches the steel manufacturing project. The readings are synthetic. This is not a claim about a real machine.
+I use scikit-learn, a train and test split with stratify, class_weight="balanced" for the class imbalance, a confusion matrix, precision and recall, and feature importance.
 
 ## How to run it
 
-```powershell
-py -3 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe .\src\main.py
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+python predict_failure.py
 ```
 
-Open [START_HERE.md](START_HERE.md) first. The portfolio MIT license in the repository root covers this folder.
+By default it makes similar fake sensor data. To use the real public dataset, download AI4I 2020 from the UCI repository and save it in this folder as ai4i2020.csv, the script picks it up automatically.
 
-## What I learned
+## The lesson in the results, on the sample data with about a 6 percent failure rate
 
-Accuracy hides a rare event. Recall asks how many real failures were caught. Precision asks how many alarms were real.
+Random Forest gets 0.94 accuracy but its recall on failures is about 0.01, it misses almost every single failure.
 
-`class_weight="balanced"` tells logistic regression that a missed failure matters more than a quiet day. Accuracy can fall while recall rises. That is the intended tradeoff here.
+Logistic Regression gets only 0.65 accuracy but its recall on failures is about 0.70, it catches most of them, with more false alarms.
 
-The largest coefficient, after scaling, is hours since maintenance. Pressure also gets a coefficient even though the simulator does not use pressure to create failures. A coefficient is not a cause.
+Random Forest looks better on accuracy but is useless for maintenance, because it just predicts "no failure" for everything. For maintenance I would pick the model with high recall, since missing a real failure costs far more than a false alarm.
 
-## Repository structure
+## Things I learned doing this
 
-```text
-09_predictive_maintenance/
-├── README.md, START_HERE.md, requirements.txt
-├── data/raw/machine_days.csv
-├── data/processed/           # clean rows and coefficients
-├── notebooks/
-├── src/
-├── reports/                  # class balance, recall, confusion matrix
-├── docs/
-├── dashboard/README.md
-└── tests/
-```
+With rare events, 94 percent accuracy can mean the model learned nothing at all.
+
+stratify=y keeps the same failure percentage in train and test.
+
+class_weight="balanced" tells the model to pay extra attention to the rare class.
+
+Read the confusion matrix, not just the accuracy number.
+
+Tool wear and torque were the most important sensors, those are the ones that go on the live dashboard.
+
