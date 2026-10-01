@@ -1,0 +1,12 @@
+{
+  "rows": 720,
+  "failure_rate": 0.0778,
+  "test_failures": 17,
+  "baseline_accuracy": 0.9213,
+  "baseline_recall": 0.0,
+  "model_accuracy": 0.8241,
+  "model_precision": 0.2558,
+  "model_recall": 0.6471,
+  "strongest_feature": "hours_since_maintenance",
+  "strongest_coefficient": 1.398
+}
