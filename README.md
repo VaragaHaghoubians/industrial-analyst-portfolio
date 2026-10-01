@@ -19,9 +19,9 @@ Every project makes its own sample data, so you can run it right away, no downlo
 | 5 | [Statistics report](05_statistics_report/) | Master | descriptive stats, t-test, confidence interval, correlation | scipy, pandas |
 | 6 | [Demand forecasting](06_demand_forecasting/) | Edge | naive baselines against Holt-Winters, MAPE | statsmodels |
 | 7 | [Production mix optimizer](07_production_mix_optimizer/) | Edge | linear programming, finding the bottleneck | PuLP |
-| 8 | Inventory, EOQ and safety stock | Edge | EOQ, reorder point, safety stock, service level | math, scipy |
-| 9 | Predictive maintenance | Edge | classifying machine failure, handling a rare class | scikit-learn |
-| 10 | Capstone, one operations story | Both | SQL, then pandas, then statistics, then Power BI, all together | everything above |
+| 8 | [Inventory, EOQ and safety stock](08_inventory_eoq_safety_stock/) | Edge | EOQ, reorder point, safety stock, service level | math, scipy |
+| 9 | [Predictive maintenance](09_predictive_maintenance/) | Edge | classifying machine failure, handling a rare class | scikit-learn |
+| 10 | [Capstone, one operations story](10_operations_capstone/) | Both | SQL, then pandas, then statistics, then Power BI, all together | everything above |
 
 Master means the core analyst skills. Edge means my industrial engineering side.
 
@@ -41,6 +41,13 @@ python sql_questions.py
 ```
 
 Each script prints its results and saves any charts or csv files in its own folder.
+
+Projects 8, 9 and 10 use the same longer layout as the steel manufacturing project: `START_HERE.md`, notebooks, `src`, reports, docs, a dashboard note and tests. From one of those folders:
+
+```
+python src/main.py
+python -m unittest discover -s tests -v
+```
 
 ## A bit about me
 

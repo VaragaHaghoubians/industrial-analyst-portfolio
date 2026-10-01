@@ -1,0 +1,14 @@
+{
+  "short_product": "Bracket",
+  "short_gap": -2342,
+  "top_downtime_reason": "Breakdown",
+  "top_downtime_min": 10220,
+  "morning_attainment": 0.9633,
+  "night_attainment": 0.8939,
+  "morning_mean_good": 281.8,
+  "night_mean_good": 208.5,
+  "p_value": 1.1941995535583123e-176,
+  "scrap_rate": 0.0261,
+  "scrap_low": 0.026,
+  "scrap_high": 0.0263
+}

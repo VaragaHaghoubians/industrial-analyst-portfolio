@@ -1,0 +1,541 @@
+date,shift,machine_id,product,planned_qty,actual_qty,scrap_qty,downtime_min,reason
+2025-01-06,Morning,PRESS_01,Bracket,100,98,1,9,Material wait
+2025-01-06,Morning,WELD_01,Housing,100,97,1,21,Setup
+2025-01-06,Morning,LATHE_01,Bracket,100,96,5,9,Material wait
+2025-01-06,Night,PRESS_01,Bracket,80,72,1,56,Breakdown
+2025-01-06,Night,WELD_01,Housing,80,71,1,58,Breakdown
+2025-01-06,Night,LATHE_01,Bracket,80,68,4,59,Breakdown
+2025-01-07,Morning,PRESS_01,Bracket,100,94,1,22,Setup
+2025-01-07,Morning,WELD_01,Housing,100,99,1,15,Material wait
+2025-01-07,Morning,LATHE_01,Bracket,100,97,5,21,Setup
+2025-01-07,Night,PRESS_01,Bracket,80,70,1,53,Breakdown
+2025-01-07,Night,WELD_01,Housing,80,72,1,45,Breakdown
+2025-01-07,Night,LATHE_01,Bracket,80,72,4,35,Setup
+2025-01-08,Morning,PRESS_01,Bracket,100,96,1,22,Setup
+2025-01-08,Morning,WELD_01,Housing,100,97,1,22,Setup
+2025-01-08,Morning,LATHE_01,Bracket,100,98,5,19,Material wait
+2025-01-08,Night,PRESS_01,Bracket,80,75,1,40,Breakdown
+2025-01-08,Night,WELD_01,Housing,80,69,1,55,Breakdown
+2025-01-08,Night,LATHE_01,Bracket,80,69,4,60,Breakdown
+2025-01-09,Morning,PRESS_01,Bracket,100,94,1,16,Material wait
+2025-01-09,Morning,WELD_01,Housing,100,99,1,8,Material wait
+2025-01-09,Morning,LATHE_01,Bracket,100,98,5,23,Setup
+2025-01-09,Night,PRESS_01,Bracket,80,69,1,58,Breakdown
+2025-01-09,Night,WELD_01,Housing,80,68,1,65,Breakdown
+2025-01-09,Night,LATHE_01,Bracket,80,71,4,41,Breakdown
+2025-01-10,Morning,PRESS_01,Bracket,100,97,1,15,Material wait
+2025-01-10,Morning,WELD_01,Housing,100,96,1,10,Material wait
+2025-01-10,Morning,LATHE_01,Bracket,100,96,5,17,Material wait
+2025-01-10,Night,PRESS_01,Bracket,80,72,1,55,Breakdown
+2025-01-10,Night,WELD_01,Housing,80,70,1,53,Breakdown
+2025-01-10,Night,LATHE_01,Bracket,80,71,4,56,Breakdown
+2025-01-11,Morning,PRESS_01,Bracket,100,96,1,15,Material wait
+2025-01-11,Morning,WELD_01,Housing,100,94,1,21,Setup
+2025-01-11,Morning,LATHE_01,Bracket,100,95,5,12,Material wait
+2025-01-11,Night,PRESS_01,Bracket,80,69,1,55,Breakdown
+2025-01-11,Night,WELD_01,Housing,80,70,1,61,Breakdown
+2025-01-11,Night,LATHE_01,Bracket,80,76,4,25,Setup
+2025-01-12,Morning,PRESS_01,Bracket,100,98,1,16,Material wait
+2025-01-12,Morning,WELD_01,Housing,100,96,1,19,Material wait
+2025-01-12,Morning,LATHE_01,Bracket,100,94,5,16,Material wait
+2025-01-12,Night,PRESS_01,Bracket,80,69,1,50,Breakdown
+2025-01-12,Night,WELD_01,Housing,80,72,1,44,Breakdown
+2025-01-12,Night,LATHE_01,Bracket,80,70,4,55,Breakdown
+2025-01-13,Morning,PRESS_01,Bracket,100,99,1,9,Material wait
+2025-01-13,Morning,WELD_01,Housing,100,96,1,21,Setup
+2025-01-13,Morning,LATHE_01,Bracket,100,97,5,9,Material wait
+2025-01-13,Night,PRESS_01,Bracket,80,69,1,50,Breakdown
+2025-01-13,Night,WELD_01,Housing,80,72,1,40,Breakdown
+2025-01-13,Night,LATHE_01,Bracket,80,72,4,44,Breakdown
+2025-01-14,Morning,PRESS_01,Bracket,100,93,1,24,Setup
+2025-01-14,Morning,WELD_01,Housing,100,93,1,22,Setup
+2025-01-14,Morning,LATHE_01,Bracket,100,94,5,22,Setup
+2025-01-14,Night,PRESS_01,Bracket,80,74,1,37,Setup
+2025-01-14,Night,WELD_01,Housing,80,76,1,30,Setup
+2025-01-14,Night,LATHE_01,Bracket,80,72,4,50,Breakdown
+2025-01-15,Morning,PRESS_01,Bracket,100,99,1,14,Material wait
+2025-01-15,Morning,WELD_01,Housing,100,95,1,14,Material wait
+2025-01-15,Morning,LATHE_01,Bracket,100,95,5,13,Material wait
+2025-01-15,Night,PRESS_01,Bracket,80,76,1,26,Setup
+2025-01-15,Night,WELD_01,Housing,80,69,1,56,Breakdown
+2025-01-15,Night,LATHE_01,Bracket,80,72,4,45,Breakdown
+2025-01-16,Morning,PRESS_01,Bracket,100,96,1,23,Setup
+2025-01-16,Morning,WELD_01,Housing,100,97,1,10,Material wait
+2025-01-16,Morning,LATHE_01,Bracket,100,97,5,10,Material wait
+2025-01-16,Night,PRESS_01,Bracket,80,73,1,42,Breakdown
+2025-01-16,Night,WELD_01,Housing,80,69,1,52,Breakdown
+2025-01-16,Night,LATHE_01,Bracket,80,71,4,41,Breakdown
+2025-01-17,Morning,PRESS_01,Bracket,100,99,1,13,Material wait
+2025-01-17,Morning,WELD_01,Housing,100,96,1,24,Setup
+2025-01-17,Morning,LATHE_01,Bracket,100,99,5,15,Material wait
+2025-01-17,Night,PRESS_01,Bracket,80,75,1,36,Setup
+2025-01-17,Night,WELD_01,Housing,80,73,1,36,Setup
+2025-01-17,Night,LATHE_01,Bracket,80,69,4,57,Breakdown
+2025-01-18,Morning,PRESS_01,Bracket,100,100,2,9,Material wait
+2025-01-18,Morning,WELD_01,Housing,100,98,1,9,Material wait
+2025-01-18,Morning,LATHE_01,Bracket,100,95,5,19,Material wait
+2025-01-18,Night,PRESS_01,Bracket,80,74,1,34,Setup
+2025-01-18,Night,WELD_01,Housing,80,73,1,49,Breakdown
+2025-01-18,Night,LATHE_01,Bracket,80,75,4,32,Setup
+2025-01-19,Morning,PRESS_01,Bracket,100,96,1,16,Material wait
+2025-01-19,Morning,WELD_01,Housing,100,96,1,20,Setup
+2025-01-19,Morning,LATHE_01,Bracket,100,99,5,10,Material wait
+2025-01-19,Night,PRESS_01,Bracket,80,69,1,51,Breakdown
+2025-01-19,Night,WELD_01,Housing,80,68,1,59,Breakdown
+2025-01-19,Night,LATHE_01,Bracket,80,72,4,43,Breakdown
+2025-01-20,Morning,PRESS_01,Bracket,100,95,1,11,Material wait
+2025-01-20,Morning,WELD_01,Housing,100,95,1,13,Material wait
+2025-01-20,Morning,LATHE_01,Bracket,100,96,5,10,Material wait
+2025-01-20,Night,PRESS_01,Bracket,80,73,1,51,Breakdown
+2025-01-20,Night,WELD_01,Housing,80,67,1,69,Breakdown
+2025-01-20,Night,LATHE_01,Bracket,80,71,4,51,Breakdown
+2025-01-21,Morning,PRESS_01,Bracket,100,100,2,13,Material wait
+2025-01-21,Morning,WELD_01,Housing,100,98,1,8,Material wait
+2025-01-21,Morning,LATHE_01,Bracket,100,94,5,15,Material wait
+2025-01-21,Night,PRESS_01,Bracket,80,69,1,60,Breakdown
+2025-01-21,Night,WELD_01,Housing,80,72,1,55,Breakdown
+2025-01-21,Night,LATHE_01,Bracket,80,72,4,47,Breakdown
+2025-01-22,Morning,PRESS_01,Bracket,100,95,1,17,Material wait
+2025-01-22,Morning,WELD_01,Housing,100,95,1,16,Material wait
+2025-01-22,Morning,LATHE_01,Bracket,100,96,5,17,Material wait
+2025-01-22,Night,PRESS_01,Bracket,80,69,1,48,Breakdown
+2025-01-22,Night,WELD_01,Housing,80,74,1,41,Breakdown
+2025-01-22,Night,LATHE_01,Bracket,80,67,4,62,Breakdown
+2025-01-23,Morning,PRESS_01,Bracket,100,95,1,13,Material wait
+2025-01-23,Morning,WELD_01,Housing,100,97,1,17,Material wait
+2025-01-23,Morning,LATHE_01,Bracket,100,99,5,10,Material wait
+2025-01-23,Night,PRESS_01,Bracket,80,74,1,37,Setup
+2025-01-23,Night,WELD_01,Housing,80,66,1,67,Breakdown
+2025-01-23,Night,LATHE_01,Bracket,80,71,4,59,Breakdown
+2025-01-24,Morning,PRESS_01,Bracket,100,92,1,24,Setup
+2025-01-24,Morning,WELD_01,Housing,100,98,1,11,Material wait
+2025-01-24,Morning,LATHE_01,Bracket,100,98,5,17,Material wait
+2025-01-24,Night,PRESS_01,Bracket,80,74,1,41,Breakdown
+2025-01-24,Night,WELD_01,Housing,80,70,1,68,Breakdown
+2025-01-24,Night,LATHE_01,Bracket,80,72,4,39,Setup
+2025-01-25,Morning,PRESS_01,Bracket,100,95,1,18,Material wait
+2025-01-25,Morning,WELD_01,Housing,100,99,1,16,Material wait
+2025-01-25,Morning,LATHE_01,Bracket,100,95,5,11,Material wait
+2025-01-25,Night,PRESS_01,Bracket,80,74,1,32,Setup
+2025-01-25,Night,WELD_01,Housing,80,70,1,68,Breakdown
+2025-01-25,Night,LATHE_01,Bracket,80,69,4,69,Breakdown
+2025-01-26,Morning,PRESS_01,Bracket,100,97,1,22,Setup
+2025-01-26,Morning,WELD_01,Housing,100,95,1,23,Setup
+2025-01-26,Morning,LATHE_01,Bracket,100,98,5,15,Material wait
+2025-01-26,Night,PRESS_01,Bracket,80,74,1,39,Setup
+2025-01-26,Night,WELD_01,Housing,80,71,1,43,Breakdown
+2025-01-26,Night,LATHE_01,Bracket,80,74,4,41,Breakdown
+2025-01-27,Morning,PRESS_01,Bracket,100,99,1,14,Material wait
+2025-01-27,Morning,WELD_01,Housing,100,96,1,12,Material wait
+2025-01-27,Morning,LATHE_01,Bracket,100,100,6,8,Material wait
+2025-01-27,Night,PRESS_01,Bracket,80,73,1,30,Setup
+2025-01-27,Night,WELD_01,Housing,80,70,1,58,Breakdown
+2025-01-27,Night,LATHE_01,Bracket,80,76,4,33,Setup
+2025-01-28,Morning,PRESS_01,Bracket,100,97,1,8,Material wait
+2025-01-28,Morning,WELD_01,Housing,100,99,1,11,Material wait
+2025-01-28,Morning,LATHE_01,Bracket,100,97,5,13,Material wait
+2025-01-28,Night,PRESS_01,Bracket,80,66,1,68,Breakdown
+2025-01-28,Night,WELD_01,Housing,80,67,1,67,Breakdown
+2025-01-28,Night,LATHE_01,Bracket,80,74,4,25,Setup
+2025-01-29,Morning,PRESS_01,Bracket,100,96,1,8,Material wait
+2025-01-29,Morning,WELD_01,Housing,100,96,1,19,Material wait
+2025-01-29,Morning,LATHE_01,Bracket,100,95,5,23,Setup
+2025-01-29,Night,PRESS_01,Bracket,80,69,1,56,Breakdown
+2025-01-29,Night,WELD_01,Housing,80,70,1,63,Breakdown
+2025-01-29,Night,LATHE_01,Bracket,80,70,4,61,Breakdown
+2025-01-30,Morning,PRESS_01,Bracket,100,93,1,22,Setup
+2025-01-30,Morning,WELD_01,Housing,100,100,2,10,Material wait
+2025-01-30,Morning,LATHE_01,Bracket,100,97,5,9,Material wait
+2025-01-30,Night,PRESS_01,Bracket,80,72,1,42,Breakdown
+2025-01-30,Night,WELD_01,Housing,80,74,1,47,Breakdown
+2025-01-30,Night,LATHE_01,Bracket,80,69,4,54,Breakdown
+2025-01-31,Morning,PRESS_01,Bracket,100,92,1,24,Setup
+2025-01-31,Morning,WELD_01,Housing,100,95,1,23,Setup
+2025-01-31,Morning,LATHE_01,Bracket,100,95,5,10,Material wait
+2025-01-31,Night,PRESS_01,Bracket,80,69,1,53,Breakdown
+2025-01-31,Night,WELD_01,Housing,80,72,1,58,Breakdown
+2025-01-31,Night,LATHE_01,Bracket,80,73,4,43,Breakdown
+2025-02-01,Morning,PRESS_01,Bracket,100,99,1,11,Material wait
+2025-02-01,Morning,WELD_01,Housing,100,95,1,23,Setup
+2025-02-01,Morning,LATHE_01,Bracket,100,93,5,18,Material wait
+2025-02-01,Night,PRESS_01,Bracket,80,68,1,60,Breakdown
+2025-02-01,Night,WELD_01,Housing,80,75,1,37,Setup
+2025-02-01,Night,LATHE_01,Bracket,80,68,4,62,Breakdown
+2025-02-02,Morning,PRESS_01,Bracket,100,98,1,13,Material wait
+2025-02-02,Morning,WELD_01,Housing,100,98,1,17,Material wait
+2025-02-02,Morning,LATHE_01,Bracket,100,95,5,20,Setup
+2025-02-02,Night,PRESS_01,Bracket,80,70,1,52,Breakdown
+2025-02-02,Night,WELD_01,Housing,80,69,1,66,Breakdown
+2025-02-02,Night,LATHE_01,Bracket,80,74,4,44,Breakdown
+2025-02-03,Morning,PRESS_01,Bracket,100,96,1,12,Material wait
+2025-02-03,Morning,WELD_01,Housing,100,95,1,15,Material wait
+2025-02-03,Morning,LATHE_01,Bracket,100,96,5,24,Setup
+2025-02-03,Night,PRESS_01,Bracket,80,68,1,58,Breakdown
+2025-02-03,Night,WELD_01,Housing,80,69,1,64,Breakdown
+2025-02-03,Night,LATHE_01,Bracket,80,74,4,27,Setup
+2025-02-04,Morning,PRESS_01,Bracket,100,96,1,11,Material wait
+2025-02-04,Morning,WELD_01,Housing,100,93,1,22,Setup
+2025-02-04,Morning,LATHE_01,Bracket,100,93,5,23,Setup
+2025-02-04,Night,PRESS_01,Bracket,80,67,1,66,Breakdown
+2025-02-04,Night,WELD_01,Housing,80,69,1,50,Breakdown
+2025-02-04,Night,LATHE_01,Bracket,80,72,4,31,Setup
+2025-02-05,Morning,PRESS_01,Bracket,100,94,1,20,Setup
+2025-02-05,Morning,WELD_01,Housing,100,96,1,8,Material wait
+2025-02-05,Morning,LATHE_01,Bracket,100,98,5,15,Material wait
+2025-02-05,Night,PRESS_01,Bracket,80,70,1,51,Breakdown
+2025-02-05,Night,WELD_01,Housing,80,69,1,62,Breakdown
+2025-02-05,Night,LATHE_01,Bracket,80,75,4,39,Setup
+2025-02-06,Morning,PRESS_01,Bracket,100,93,1,21,Setup
+2025-02-06,Morning,WELD_01,Housing,100,93,1,22,Setup
+2025-02-06,Morning,LATHE_01,Bracket,100,93,5,23,Setup
+2025-02-06,Night,PRESS_01,Bracket,80,74,1,35,Setup
+2025-02-06,Night,WELD_01,Housing,80,66,1,67,Breakdown
+2025-02-06,Night,LATHE_01,Bracket,80,72,4,43,Breakdown
+2025-02-07,Morning,PRESS_01,Bracket,100,93,1,23,Setup
+2025-02-07,Morning,WELD_01,Housing,100,98,1,16,Material wait
+2025-02-07,Morning,LATHE_01,Bracket,100,100,6,9,Material wait
+2025-02-07,Night,PRESS_01,Bracket,80,73,1,27,Setup
+2025-02-07,Night,WELD_01,Housing,80,71,1,62,Breakdown
+2025-02-07,Night,LATHE_01,Bracket,80,71,4,62,Breakdown
+2025-02-08,Morning,PRESS_01,Bracket,100,99,1,13,Material wait
+2025-02-08,Morning,WELD_01,Housing,100,96,1,21,Setup
+2025-02-08,Morning,LATHE_01,Bracket,100,94,5,18,Material wait
+2025-02-08,Night,PRESS_01,Bracket,80,69,1,60,Breakdown
+2025-02-08,Night,WELD_01,Housing,80,75,1,39,Setup
+2025-02-08,Night,LATHE_01,Bracket,80,71,4,48,Breakdown
+2025-02-09,Morning,PRESS_01,Bracket,100,96,1,21,Setup
+2025-02-09,Morning,WELD_01,Housing,100,96,1,14,Material wait
+2025-02-09,Morning,LATHE_01,Bracket,100,98,5,9,Material wait
+2025-02-09,Night,PRESS_01,Bracket,80,74,1,31,Setup
+2025-02-09,Night,WELD_01,Housing,80,70,1,52,Breakdown
+2025-02-09,Night,LATHE_01,Bracket,80,73,4,35,Setup
+2025-02-10,Morning,PRESS_01,Bracket,100,95,1,20,Setup
+2025-02-10,Morning,WELD_01,Housing,100,98,1,13,Material wait
+2025-02-10,Morning,LATHE_01,Bracket,100,100,6,12,Material wait
+2025-02-10,Night,PRESS_01,Bracket,80,75,1,38,Setup
+2025-02-10,Night,WELD_01,Housing,80,68,1,63,Breakdown
+2025-02-10,Night,LATHE_01,Bracket,80,72,4,46,Breakdown
+2025-02-11,Morning,PRESS_01,Bracket,100,96,1,24,Setup
+2025-02-11,Morning,WELD_01,Housing,100,97,1,22,Setup
+2025-02-11,Morning,LATHE_01,Bracket,100,97,5,17,Material wait
+2025-02-11,Night,PRESS_01,Bracket,80,71,1,48,Breakdown
+2025-02-11,Night,WELD_01,Housing,80,73,1,32,Setup
+2025-02-11,Night,LATHE_01,Bracket,80,71,4,58,Breakdown
+2025-02-12,Morning,PRESS_01,Bracket,100,94,1,16,Material wait
+2025-02-12,Morning,WELD_01,Housing,100,96,1,22,Setup
+2025-02-12,Morning,LATHE_01,Bracket,100,97,5,18,Material wait
+2025-02-12,Night,PRESS_01,Bracket,80,73,1,29,Setup
+2025-02-12,Night,WELD_01,Housing,80,70,1,48,Breakdown
+2025-02-12,Night,LATHE_01,Bracket,80,70,4,67,Breakdown
+2025-02-13,Morning,PRESS_01,Bracket,100,98,1,10,Material wait
+2025-02-13,Morning,WELD_01,Housing,100,97,1,21,Setup
+2025-02-13,Morning,LATHE_01,Bracket,100,97,5,24,Setup
+2025-02-13,Night,PRESS_01,Bracket,80,68,1,60,Breakdown
+2025-02-13,Night,WELD_01,Housing,80,68,1,57,Breakdown
+2025-02-13,Night,LATHE_01,Bracket,80,71,4,51,Breakdown
+2025-02-14,Morning,PRESS_01,Bracket,100,98,1,10,Material wait
+2025-02-14,Morning,WELD_01,Housing,100,98,1,10,Material wait
+2025-02-14,Morning,LATHE_01,Bracket,100,97,5,16,Material wait
+2025-02-14,Night,PRESS_01,Bracket,80,73,1,45,Breakdown
+2025-02-14,Night,WELD_01,Housing,80,68,1,66,Breakdown
+2025-02-14,Night,LATHE_01,Bracket,80,70,4,60,Breakdown
+2025-02-15,Morning,PRESS_01,Bracket,100,96,1,10,Material wait
+2025-02-15,Morning,WELD_01,Housing,100,93,1,23,Setup
+2025-02-15,Morning,LATHE_01,Bracket,100,96,5,20,Setup
+2025-02-15,Night,PRESS_01,Bracket,80,75,1,28,Setup
+2025-02-15,Night,WELD_01,Housing,80,69,1,66,Breakdown
+2025-02-15,Night,LATHE_01,Bracket,80,69,4,59,Breakdown
+2025-02-16,Morning,PRESS_01,Bracket,100,97,1,20,Setup
+2025-02-16,Morning,WELD_01,Housing,100,94,1,23,Setup
+2025-02-16,Morning,LATHE_01,Bracket,100,94,5,21,Setup
+2025-02-16,Night,PRESS_01,Bracket,80,71,1,41,Breakdown
+2025-02-16,Night,WELD_01,Housing,80,70,1,68,Breakdown
+2025-02-16,Night,LATHE_01,Bracket,80,74,4,31,Setup
+2025-02-17,Morning,PRESS_01,Bracket,100,97,1,20,Setup
+2025-02-17,Morning,WELD_01,Housing,100,97,1,14,Material wait
+2025-02-17,Morning,LATHE_01,Bracket,100,96,5,24,Setup
+2025-02-17,Night,PRESS_01,Bracket,80,68,1,67,Breakdown
+2025-02-17,Night,WELD_01,Housing,80,77,1,31,Setup
+2025-02-17,Night,LATHE_01,Bracket,80,74,4,41,Breakdown
+2025-02-18,Morning,PRESS_01,Bracket,100,93,1,22,Setup
+2025-02-18,Morning,WELD_01,Housing,100,97,1,24,Setup
+2025-02-18,Morning,LATHE_01,Bracket,100,93,5,22,Setup
+2025-02-18,Night,PRESS_01,Bracket,80,71,1,53,Breakdown
+2025-02-18,Night,WELD_01,Housing,80,73,1,26,Setup
+2025-02-18,Night,LATHE_01,Bracket,80,70,4,55,Breakdown
+2025-02-19,Morning,PRESS_01,Bracket,100,94,1,20,Setup
+2025-02-19,Morning,WELD_01,Housing,100,95,1,22,Setup
+2025-02-19,Morning,LATHE_01,Bracket,100,96,5,13,Material wait
+2025-02-19,Night,PRESS_01,Bracket,80,74,1,44,Breakdown
+2025-02-19,Night,WELD_01,Housing,80,68,1,58,Breakdown
+2025-02-19,Night,LATHE_01,Bracket,80,71,4,60,Breakdown
+2025-02-20,Morning,PRESS_01,Bracket,100,97,1,8,Material wait
+2025-02-20,Morning,WELD_01,Housing,100,97,1,22,Setup
+2025-02-20,Morning,LATHE_01,Bracket,100,100,6,8,Material wait
+2025-02-20,Night,PRESS_01,Bracket,80,76,1,29,Setup
+2025-02-20,Night,WELD_01,Housing,80,73,1,31,Setup
+2025-02-20,Night,LATHE_01,Bracket,80,72,4,54,Breakdown
+2025-02-21,Morning,PRESS_01,Bracket,100,94,1,22,Setup
+2025-02-21,Morning,WELD_01,Housing,100,96,1,8,Material wait
+2025-02-21,Morning,LATHE_01,Bracket,100,93,5,22,Setup
+2025-02-21,Night,PRESS_01,Bracket,80,71,1,59,Breakdown
+2025-02-21,Night,WELD_01,Housing,80,71,1,38,Setup
+2025-02-21,Night,LATHE_01,Bracket,80,68,4,54,Breakdown
+2025-02-22,Morning,PRESS_01,Bracket,100,98,1,10,Material wait
+2025-02-22,Morning,WELD_01,Housing,100,100,2,8,Material wait
+2025-02-22,Morning,LATHE_01,Bracket,100,97,5,24,Setup
+2025-02-22,Night,PRESS_01,Bracket,80,72,1,35,Setup
+2025-02-22,Night,WELD_01,Housing,80,72,1,55,Breakdown
+2025-02-22,Night,LATHE_01,Bracket,80,70,4,61,Breakdown
+2025-02-23,Morning,PRESS_01,Bracket,100,97,1,22,Setup
+2025-02-23,Morning,WELD_01,Housing,100,93,1,19,Material wait
+2025-02-23,Morning,LATHE_01,Bracket,100,94,5,15,Material wait
+2025-02-23,Night,PRESS_01,Bracket,80,74,1,34,Setup
+2025-02-23,Night,WELD_01,Housing,80,72,1,49,Breakdown
+2025-02-23,Night,LATHE_01,Bracket,80,71,4,58,Breakdown
+2025-02-24,Morning,PRESS_01,Bracket,100,98,1,15,Material wait
+2025-02-24,Morning,WELD_01,Housing,100,96,1,10,Material wait
+2025-02-24,Morning,LATHE_01,Bracket,100,99,5,8,Material wait
+2025-02-24,Night,PRESS_01,Bracket,80,76,1,37,Setup
+2025-02-24,Night,WELD_01,Housing,80,68,1,58,Breakdown
+2025-02-24,Night,LATHE_01,Bracket,80,71,4,52,Breakdown
+2025-02-25,Morning,PRESS_01,Bracket,100,100,2,8,Material wait
+2025-02-25,Morning,WELD_01,Housing,100,99,1,8,Material wait
+2025-02-25,Morning,LATHE_01,Bracket,100,95,5,14,Material wait
+2025-02-25,Night,PRESS_01,Bracket,80,73,1,32,Setup
+2025-02-25,Night,WELD_01,Housing,80,73,1,41,Breakdown
+2025-02-25,Night,LATHE_01,Bracket,80,69,4,69,Breakdown
+2025-02-26,Morning,PRESS_01,Bracket,100,98,1,12,Material wait
+2025-02-26,Morning,WELD_01,Housing,100,94,1,18,Material wait
+2025-02-26,Morning,LATHE_01,Bracket,100,96,5,12,Material wait
+2025-02-26,Night,PRESS_01,Bracket,80,68,1,67,Breakdown
+2025-02-26,Night,WELD_01,Housing,80,72,1,49,Breakdown
+2025-02-26,Night,LATHE_01,Bracket,80,72,4,56,Breakdown
+2025-02-27,Morning,PRESS_01,Bracket,100,98,1,10,Material wait
+2025-02-27,Morning,WELD_01,Housing,100,97,1,10,Material wait
+2025-02-27,Morning,LATHE_01,Bracket,100,93,5,23,Setup
+2025-02-27,Night,PRESS_01,Bracket,80,70,1,46,Breakdown
+2025-02-27,Night,WELD_01,Housing,80,67,1,67,Breakdown
+2025-02-27,Night,LATHE_01,Bracket,80,73,4,37,Setup
+2025-02-28,Morning,PRESS_01,Bracket,100,96,1,21,Setup
+2025-02-28,Morning,WELD_01,Housing,100,95,1,18,Material wait
+2025-02-28,Morning,LATHE_01,Bracket,100,96,5,10,Material wait
+2025-02-28,Night,PRESS_01,Bracket,80,73,1,43,Breakdown
+2025-02-28,Night,WELD_01,Housing,80,69,1,52,Breakdown
+2025-02-28,Night,LATHE_01,Bracket,80,73,4,39,Setup
+2025-03-01,Morning,PRESS_01,Bracket,100,95,1,16,Material wait
+2025-03-01,Morning,WELD_01,Housing,100,97,1,16,Material wait
+2025-03-01,Morning,LATHE_01,Bracket,100,98,5,13,Material wait
+2025-03-01,Night,PRESS_01,Bracket,80,72,1,50,Breakdown
+2025-03-01,Night,WELD_01,Housing,80,70,1,51,Breakdown
+2025-03-01,Night,LATHE_01,Bracket,80,72,4,54,Breakdown
+2025-03-02,Morning,PRESS_01,Bracket,100,97,1,13,Material wait
+2025-03-02,Morning,WELD_01,Housing,100,97,1,17,Material wait
+2025-03-02,Morning,LATHE_01,Bracket,100,97,5,16,Material wait
+2025-03-02,Night,PRESS_01,Bracket,80,74,1,41,Breakdown
+2025-03-02,Night,WELD_01,Housing,80,73,1,50,Breakdown
+2025-03-02,Night,LATHE_01,Bracket,80,69,4,64,Breakdown
+2025-03-03,Morning,PRESS_01,Bracket,100,97,1,20,Setup
+2025-03-03,Morning,WELD_01,Housing,100,95,1,16,Material wait
+2025-03-03,Morning,LATHE_01,Bracket,100,96,5,16,Material wait
+2025-03-03,Night,PRESS_01,Bracket,80,67,1,62,Breakdown
+2025-03-03,Night,WELD_01,Housing,80,77,1,27,Setup
+2025-03-03,Night,LATHE_01,Bracket,80,73,4,28,Setup
+2025-03-04,Morning,PRESS_01,Bracket,100,97,1,9,Material wait
+2025-03-04,Morning,WELD_01,Housing,100,95,1,12,Material wait
+2025-03-04,Morning,LATHE_01,Bracket,100,97,5,20,Setup
+2025-03-04,Night,PRESS_01,Bracket,80,71,1,39,Setup
+2025-03-04,Night,WELD_01,Housing,80,74,1,44,Breakdown
+2025-03-04,Night,LATHE_01,Bracket,80,68,4,62,Breakdown
+2025-03-05,Morning,PRESS_01,Bracket,100,96,1,20,Setup
+2025-03-05,Morning,WELD_01,Housing,100,96,1,10,Material wait
+2025-03-05,Morning,LATHE_01,Bracket,100,99,5,16,Material wait
+2025-03-05,Night,PRESS_01,Bracket,80,75,1,41,Breakdown
+2025-03-05,Night,WELD_01,Housing,80,71,1,45,Breakdown
+2025-03-05,Night,LATHE_01,Bracket,80,70,4,59,Breakdown
+2025-03-06,Morning,PRESS_01,Bracket,100,97,1,10,Material wait
+2025-03-06,Morning,WELD_01,Housing,100,97,1,19,Material wait
+2025-03-06,Morning,LATHE_01,Bracket,100,95,5,13,Material wait
+2025-03-06,Night,PRESS_01,Bracket,80,76,1,25,Setup
+2025-03-06,Night,WELD_01,Housing,80,70,1,46,Breakdown
+2025-03-06,Night,LATHE_01,Bracket,80,76,4,32,Setup
+2025-03-07,Morning,PRESS_01,Bracket,100,95,1,23,Setup
+2025-03-07,Morning,WELD_01,Housing,100,97,1,24,Setup
+2025-03-07,Morning,LATHE_01,Bracket,100,93,5,21,Setup
+2025-03-07,Night,PRESS_01,Bracket,80,68,1,69,Breakdown
+2025-03-07,Night,WELD_01,Housing,80,67,1,62,Breakdown
+2025-03-07,Night,LATHE_01,Bracket,80,74,4,42,Breakdown
+2025-03-08,Morning,PRESS_01,Bracket,100,98,1,8,Material wait
+2025-03-08,Morning,WELD_01,Housing,100,95,1,15,Material wait
+2025-03-08,Morning,LATHE_01,Bracket,100,99,5,13,Material wait
+2025-03-08,Night,PRESS_01,Bracket,80,72,1,33,Setup
+2025-03-08,Night,WELD_01,Housing,80,70,1,53,Breakdown
+2025-03-08,Night,LATHE_01,Bracket,80,74,4,35,Setup
+2025-03-09,Morning,PRESS_01,Bracket,100,95,1,24,Setup
+2025-03-09,Morning,WELD_01,Housing,100,94,1,17,Material wait
+2025-03-09,Morning,LATHE_01,Bracket,100,99,5,12,Material wait
+2025-03-09,Night,PRESS_01,Bracket,80,74,1,35,Setup
+2025-03-09,Night,WELD_01,Housing,80,72,1,50,Breakdown
+2025-03-09,Night,LATHE_01,Bracket,80,72,4,54,Breakdown
+2025-03-10,Morning,PRESS_01,Bracket,100,95,1,18,Material wait
+2025-03-10,Morning,WELD_01,Housing,100,98,1,8,Material wait
+2025-03-10,Morning,LATHE_01,Bracket,100,97,5,22,Setup
+2025-03-10,Night,PRESS_01,Bracket,80,73,1,40,Breakdown
+2025-03-10,Night,WELD_01,Housing,80,73,1,48,Breakdown
+2025-03-10,Night,LATHE_01,Bracket,80,70,4,59,Breakdown
+2025-03-11,Morning,PRESS_01,Bracket,100,97,1,15,Material wait
+2025-03-11,Morning,WELD_01,Housing,100,97,1,23,Setup
+2025-03-11,Morning,LATHE_01,Bracket,100,97,5,14,Material wait
+2025-03-11,Night,PRESS_01,Bracket,80,73,1,40,Breakdown
+2025-03-11,Night,WELD_01,Housing,80,71,1,48,Breakdown
+2025-03-11,Night,LATHE_01,Bracket,80,77,4,29,Setup
+2025-03-12,Morning,PRESS_01,Bracket,100,94,1,18,Material wait
+2025-03-12,Morning,WELD_01,Housing,100,95,1,18,Material wait
+2025-03-12,Morning,LATHE_01,Bracket,100,94,5,13,Material wait
+2025-03-12,Night,PRESS_01,Bracket,80,76,1,33,Setup
+2025-03-12,Night,WELD_01,Housing,80,69,1,56,Breakdown
+2025-03-12,Night,LATHE_01,Bracket,80,72,4,45,Breakdown
+2025-03-13,Morning,PRESS_01,Bracket,100,95,1,17,Material wait
+2025-03-13,Morning,WELD_01,Housing,100,99,1,8,Material wait
+2025-03-13,Morning,LATHE_01,Bracket,100,99,5,16,Material wait
+2025-03-13,Night,PRESS_01,Bracket,80,71,1,53,Breakdown
+2025-03-13,Night,WELD_01,Housing,80,70,1,64,Breakdown
+2025-03-13,Night,LATHE_01,Bracket,80,74,4,46,Breakdown
+2025-03-14,Morning,PRESS_01,Bracket,100,99,1,16,Material wait
+2025-03-14,Morning,WELD_01,Housing,100,97,1,20,Setup
+2025-03-14,Morning,LATHE_01,Bracket,100,94,5,15,Material wait
+2025-03-14,Night,PRESS_01,Bracket,80,70,1,64,Breakdown
+2025-03-14,Night,WELD_01,Housing,80,69,1,61,Breakdown
+2025-03-14,Night,LATHE_01,Bracket,80,73,4,44,Breakdown
+2025-03-15,Morning,PRESS_01,Bracket,100,99,1,15,Material wait
+2025-03-15,Morning,WELD_01,Housing,100,93,1,24,Setup
+2025-03-15,Morning,LATHE_01,Bracket,100,97,5,21,Setup
+2025-03-15,Night,PRESS_01,Bracket,80,69,1,58,Breakdown
+2025-03-15,Night,WELD_01,Housing,80,73,1,25,Setup
+2025-03-15,Night,LATHE_01,Bracket,80,76,4,30,Setup
+2025-03-16,Morning,PRESS_01,Bracket,100,97,1,24,Setup
+2025-03-16,Morning,WELD_01,Housing,100,96,1,16,Material wait
+2025-03-16,Morning,LATHE_01,Bracket,100,97,5,13,Material wait
+2025-03-16,Night,PRESS_01,Bracket,80,69,1,69,Breakdown
+2025-03-16,Night,WELD_01,Housing,80,71,1,54,Breakdown
+2025-03-16,Night,LATHE_01,Bracket,80,76,4,28,Setup
+2025-03-17,Morning,PRESS_01,Bracket,100,99,1,12,Material wait
+2025-03-17,Morning,WELD_01,Housing,100,92,1,23,Setup
+2025-03-17,Morning,LATHE_01,Bracket,100,96,5,8,Material wait
+2025-03-17,Night,PRESS_01,Bracket,80,71,1,41,Breakdown
+2025-03-17,Night,WELD_01,Housing,80,69,1,66,Breakdown
+2025-03-17,Night,LATHE_01,Bracket,80,71,4,55,Breakdown
+2025-03-18,Morning,PRESS_01,Bracket,100,100,2,8,Material wait
+2025-03-18,Morning,WELD_01,Housing,100,97,1,22,Setup
+2025-03-18,Morning,LATHE_01,Bracket,100,95,5,14,Material wait
+2025-03-18,Night,PRESS_01,Bracket,80,76,1,27,Setup
+2025-03-18,Night,WELD_01,Housing,80,72,1,35,Setup
+2025-03-18,Night,LATHE_01,Bracket,80,69,4,63,Breakdown
+2025-03-19,Morning,PRESS_01,Bracket,100,95,1,12,Material wait
+2025-03-19,Morning,WELD_01,Housing,100,95,1,19,Material wait
+2025-03-19,Morning,LATHE_01,Bracket,100,97,5,19,Material wait
+2025-03-19,Night,PRESS_01,Bracket,80,67,1,65,Breakdown
+2025-03-19,Night,WELD_01,Housing,80,72,1,43,Breakdown
+2025-03-19,Night,LATHE_01,Bracket,80,70,4,63,Breakdown
+2025-03-20,Morning,PRESS_01,Bracket,100,95,1,23,Setup
+2025-03-20,Morning,WELD_01,Housing,100,97,1,13,Material wait
+2025-03-20,Morning,LATHE_01,Bracket,100,100,6,9,Material wait
+2025-03-20,Night,PRESS_01,Bracket,80,72,1,37,Setup
+2025-03-20,Night,WELD_01,Housing,80,70,1,55,Breakdown
+2025-03-20,Night,LATHE_01,Bracket,80,76,4,28,Setup
+2025-03-21,Morning,PRESS_01,Bracket,100,100,2,15,Material wait
+2025-03-21,Morning,WELD_01,Housing,100,94,1,21,Setup
+2025-03-21,Morning,LATHE_01,Bracket,100,93,5,21,Setup
+2025-03-21,Night,PRESS_01,Bracket,80,73,1,43,Breakdown
+2025-03-21,Night,WELD_01,Housing,80,75,1,33,Setup
+2025-03-21,Night,LATHE_01,Bracket,80,68,4,69,Breakdown
+2025-03-22,Morning,PRESS_01,Bracket,100,100,2,9,Material wait
+2025-03-22,Morning,WELD_01,Housing,100,97,1,14,Material wait
+2025-03-22,Morning,LATHE_01,Bracket,100,96,5,13,Material wait
+2025-03-22,Night,PRESS_01,Bracket,80,73,1,31,Setup
+2025-03-22,Night,WELD_01,Housing,80,71,1,40,Breakdown
+2025-03-22,Night,LATHE_01,Bracket,80,74,4,34,Setup
+2025-03-23,Morning,PRESS_01,Bracket,100,94,1,24,Setup
+2025-03-23,Morning,WELD_01,Housing,100,96,1,18,Material wait
+2025-03-23,Morning,LATHE_01,Bracket,100,96,5,23,Setup
+2025-03-23,Night,PRESS_01,Bracket,80,68,1,68,Breakdown
+2025-03-23,Night,WELD_01,Housing,80,69,1,69,Breakdown
+2025-03-23,Night,LATHE_01,Bracket,80,72,4,37,Setup
+2025-03-24,Morning,PRESS_01,Bracket,100,99,1,17,Material wait
+2025-03-24,Morning,WELD_01,Housing,100,97,1,13,Material wait
+2025-03-24,Morning,LATHE_01,Bracket,100,95,5,24,Setup
+2025-03-24,Night,PRESS_01,Bracket,80,70,1,58,Breakdown
+2025-03-24,Night,WELD_01,Housing,80,74,1,26,Setup
+2025-03-24,Night,LATHE_01,Bracket,80,72,4,38,Setup
+2025-03-25,Morning,PRESS_01,Bracket,100,100,2,11,Material wait
+2025-03-25,Morning,WELD_01,Housing,100,97,1,10,Material wait
+2025-03-25,Morning,LATHE_01,Bracket,100,100,6,9,Material wait
+2025-03-25,Night,PRESS_01,Bracket,80,72,1,50,Breakdown
+2025-03-25,Night,WELD_01,Housing,80,70,1,53,Breakdown
+2025-03-25,Night,LATHE_01,Bracket,80,74,4,44,Breakdown
+2025-03-26,Morning,PRESS_01,Bracket,100,98,1,18,Material wait
+2025-03-26,Morning,WELD_01,Housing,100,98,1,19,Material wait
+2025-03-26,Morning,LATHE_01,Bracket,100,95,5,12,Material wait
+2025-03-26,Night,PRESS_01,Bracket,80,70,1,60,Breakdown
+2025-03-26,Night,WELD_01,Housing,80,74,1,39,Setup
+2025-03-26,Night,LATHE_01,Bracket,80,77,4,29,Setup
+2025-03-27,Morning,PRESS_01,Bracket,100,95,1,21,Setup
+2025-03-27,Morning,WELD_01,Housing,100,94,1,16,Material wait
+2025-03-27,Morning,LATHE_01,Bracket,100,93,5,23,Setup
+2025-03-27,Night,PRESS_01,Bracket,80,66,1,68,Breakdown
+2025-03-27,Night,WELD_01,Housing,80,73,1,27,Setup
+2025-03-27,Night,LATHE_01,Bracket,80,73,4,36,Setup
+2025-03-28,Morning,PRESS_01,Bracket,100,96,1,12,Material wait
+2025-03-28,Morning,WELD_01,Housing,100,94,1,16,Material wait
+2025-03-28,Morning,LATHE_01,Bracket,100,94,5,22,Setup
+2025-03-28,Night,PRESS_01,Bracket,80,73,1,30,Setup
+2025-03-28,Night,WELD_01,Housing,80,67,1,65,Breakdown
+2025-03-28,Night,LATHE_01,Bracket,80,69,4,56,Breakdown
+2025-03-29,Morning,PRESS_01,Bracket,100,96,1,16,Material wait
+2025-03-29,Morning,WELD_01,Housing,100,94,1,14,Material wait
+2025-03-29,Morning,LATHE_01,Bracket,100,99,5,12,Material wait
+2025-03-29,Night,PRESS_01,Bracket,80,72,1,30,Setup
+2025-03-29,Night,WELD_01,Housing,80,75,1,29,Setup
+2025-03-29,Night,LATHE_01,Bracket,80,71,4,47,Breakdown
+2025-03-30,Morning,PRESS_01,Bracket,100,99,1,14,Material wait
+2025-03-30,Morning,WELD_01,Housing,100,99,1,15,Material wait
+2025-03-30,Morning,LATHE_01,Bracket,100,95,5,17,Material wait
+2025-03-30,Night,PRESS_01,Bracket,80,72,1,36,Setup
+2025-03-30,Night,WELD_01,Housing,80,69,1,66,Breakdown
+2025-03-30,Night,LATHE_01,Bracket,80,71,4,46,Breakdown
+2025-03-31,Morning,PRESS_01,Bracket,100,98,1,20,Setup
+2025-03-31,Morning,WELD_01,Housing,100,94,1,13,Material wait
+2025-03-31,Morning,LATHE_01,Bracket,100,98,5,16,Material wait
+2025-03-31,Night,PRESS_01,Bracket,80,70,1,45,Breakdown
+2025-03-31,Night,WELD_01,Housing,80,69,1,52,Breakdown
+2025-03-31,Night,LATHE_01,Bracket,80,77,4,27,Setup
+2025-04-01,Morning,PRESS_01,Bracket,100,96,1,9,Material wait
+2025-04-01,Morning,WELD_01,Housing,100,95,1,8,Material wait
+2025-04-01,Morning,LATHE_01,Bracket,100,98,5,10,Material wait
+2025-04-01,Night,PRESS_01,Bracket,80,74,1,29,Setup
+2025-04-01,Night,WELD_01,Housing,80,75,1,28,Setup
+2025-04-01,Night,LATHE_01,Bracket,80,73,4,50,Breakdown
+2025-04-02,Morning,PRESS_01,Bracket,100,98,1,16,Material wait
+2025-04-02,Morning,WELD_01,Housing,100,99,1,8,Material wait
+2025-04-02,Morning,LATHE_01,Bracket,100,98,5,15,Material wait
+2025-04-02,Night,PRESS_01,Bracket,80,76,1,32,Setup
+2025-04-02,Night,WELD_01,Housing,80,75,1,38,Setup
+2025-04-02,Night,LATHE_01,Bracket,80,73,4,36,Setup
+2025-04-03,Morning,PRESS_01,Bracket,100,97,1,24,Setup
+2025-04-03,Morning,WELD_01,Housing,100,95,1,18,Material wait
+2025-04-03,Morning,LATHE_01,Bracket,100,95,5,20,Setup
+2025-04-03,Night,PRESS_01,Bracket,80,70,1,61,Breakdown
+2025-04-03,Night,WELD_01,Housing,80,73,1,30,Setup
+2025-04-03,Night,LATHE_01,Bracket,80,70,4,52,Breakdown
+2025-04-04,Morning,PRESS_01,Bracket,100,94,1,18,Material wait
+2025-04-04,Morning,WELD_01,Housing,100,94,1,13,Material wait
+2025-04-04,Morning,LATHE_01,Bracket,100,93,5,20,Setup
+2025-04-04,Night,PRESS_01,Bracket,80,71,1,40,Breakdown
+2025-04-04,Night,WELD_01,Housing,80,71,1,54,Breakdown
+2025-04-04,Night,LATHE_01,Bracket,80,71,4,57,Breakdown
+2025-04-05,Morning,PRESS_01,Bracket,100,97,1,22,Setup
+2025-04-05,Morning,WELD_01,Housing,100,98,1,13,Material wait
+2025-04-05,Morning,LATHE_01,Bracket,100,95,5,12,Material wait
+2025-04-05,Night,PRESS_01,Bracket,80,76,1,30,Setup
+2025-04-05,Night,WELD_01,Housing,80,75,1,27,Setup
+2025-04-05,Night,LATHE_01,Bracket,80,77,4,32,Setup
